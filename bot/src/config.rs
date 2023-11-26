@@ -3,7 +3,7 @@ use std::env;
 
 use crate::error::BotError;
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct Config {
     pub token: String,
     pub owner_id: String,
